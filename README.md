@@ -5,13 +5,6 @@
 
 这是一个有趣的纯 Shell 脚本，它可以在您的终端中生成优美的、不断生长的分形花/树动画。它不依赖任何复杂的图形库，仅使用 `tput` 和 `bc` 等基础命令来精确控制终端光标和进行数学计算，以“绘画”的方式模拟植物生长。
 
-## 效果演示 (Demo)
-
-*(建议您在此处放置一个 GIF 动画来展示效果)*
-
-![Demo GIF Placeholder](https://user-images.githubusercontent.com/288633/53232205-c3359b00-36a5-11e9-8787-2200632a4336.gif)
-
-> 您可以使用 `peek`、`asciinema` 或 `GIPHY Capture` 等工具来轻松录制终端并生成 GIF 动画。
 
 ## 特性 (Features)
 
