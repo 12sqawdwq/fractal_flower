@@ -14,36 +14,37 @@
 - **无限模式**: 支持自动、连续地生成形态各异的花朵，是绝佳的终端背景“屏保”。
 - **教育性**: 是一个学习 Shell 脚本、终端控制和分形几何的绝佳示例。
 
+
 ## 安装 (Installation)
 
-1.  **安装依赖 `bc`**
+本项目支持一键安装，让您可以像使用普通系统命令一样在任何地方运行它。
 
-    本脚本使用 `bc` 进行浮点数和三角函数计算。请确保您的系统已安装它。
-    ```bash
-    # Arch Linux / Manjaro
-    sudo pacman -S bc
+1.  **克隆仓库**
 
-    # Debian / Ubuntu / Mint
-    sudo apt-get update && sudo apt-get install bc
-
-    # Fedora / CentOS
-    sudo yum install bc
-
-    # macOS (通常已自带, 或通过 Homebrew 安装)
-    brew install bc
-    ```
-
-2.  **克隆或下载脚本**
+    首先，将项目代码克隆到您的本地机器。
     ```bash
     git clone [https://github.com/你的用户名/你的仓库名.git](https://github.com/你的用户名/你的仓库名.git)
     cd 你的仓库名
     ```
-    或者，您可以直接将 `fractal_flower.sh` 文件的内容保存到本地。
 
-3.  **赋予执行权限**
+2.  **运行安装脚本**
+
+    项目根目录下有一个安装脚本，它会自动检查依赖、赋予权限并将主程序部署到系统中。
     ```bash
-    chmod +x fractal_flower.sh
+    sudo ./install.sh
     ```
+    或者，您可以直接运行，脚本会自动提权：
+    ```bash
+    ./install.sh
+    ```
+    安装成功后，您就可以在任何终端窗口中直接使用 `fractal_flower` 命令了！
+
+## 卸载 (Uninstallation)
+
+如果您想从系统中移除此命令，只需运行项目中的卸载脚本即可：
+```bash
+./uninstall.sh
+```
 
 ## 使用 (Usage)
 
